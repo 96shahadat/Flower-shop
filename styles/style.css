@@ -1,18 +1,107 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700&display=swap');
+
+* {
   margin: 0;
   padding: 0;
-  
+
 }
-header{
-  background-color: rgba(229,84,115,0.10);
+
+header {
+  background-color: rgba(229, 84, 115, 0.10);
 }
-.container{
+
+.container {
   width: 75%;
   max-width: 1440px;
   margin: 0 auto;
 }
-.banner{
+
+
+.section-heading{
+  max-width: 500px;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.section-heading h2{
+color: #272727;
+font-size: 40px;
+font-weight: 800;
+margin-bottom: 16px;
+}
+
+.banner {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.button {
+  border-radius: 8px;
+  background-color: #e55473;
+  color: #ffff;
+  border: none;
+  font-size: 20px;
+  padding: 15px 28px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.button:hover{
+  background-color: aqua;
+}
+
+.banner .banner-text * {
+  margin-bottom: 32px;
+  max-width: 525px;
+}
+
+.banner .banner-text h1 {
+  font-size: 50px;
+  color: #272727;
+}
+
+p {
+  font-size: 25px;
+  color: #a07f7f;
+}
+
+.banner .banner-img img {
+  width: 100%;
+  vertical-align: middle;
+}
+
+#featured{
+  padding: 100px 0;
+
+}
+
+.section-content{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: end;
+}
+
+.section-content .flower .flower-img{
+background-color: #c27484;
+border-radius: 300px 300px 0px 0px;
+padding: 30px 25px 0;
+height: 500px;
+display: flex;
+align-items: end;
+}
+
+.section-content .flower .flower-img img{
+  width: 100%;
+}
+
+.section-content .flower .pink{
+  background: rgba(167,33,98,0.15);
+}
+.section-content .flower .blue{
+  background: rgba(5,151,160,0.15);
+}
+.section-content .flower .green{
+background: rgba(71, 125, 17,0.15);
 }
